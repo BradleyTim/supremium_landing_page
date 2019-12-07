@@ -1,0 +1,190 @@
+:root {
+    --primary-color: #fc0339;
+    --secondary-color: #8a8d99;
+    --button-color: #5c658a;
+    --hover-color: #4f587d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 3rem;
+}
+
+header .topbar {
+    height: 3vh;
+    background: var(--primary-color);
+}
+
+header .menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+header .menu .logo-container {
+    flex: 3;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .menu .logo-container .logo {
+    height: 100px;
+    margin-bottom: 0.5rem;
+}
+
+header .menu .menu-one {
+    flex: 2;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .menu .menu-one div {
+    padding-left: 1.5rem;
+    color: var(--primary-color);
+}
+
+header .menu-two nav {
+    height: 4vh;
+}
+
+header .menu-two nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+}
+
+header .menu-two nav ul li {
+    color: var(--primary-color);
+    padding: 0 .5rem;
+}
+
+main {
+    /* background: green; */
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3rem;
+
+    display: flex;
+}
+
+main .display .display-image {
+    width: 450px;
+}
+
+main .description {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+main .description h2 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+main .description p {
+    padding: 0.5rem 0;
+    color: var(--secondary-color);
+}
+
+main .description button {
+    margin-top: 1.5rem;
+    width: 50%;
+    background: var(--button-color);
+    border: 1px solid var(--button-color);
+    border-radius: 2px;
+    padding: .75rem 0rem;
+    color: #fff;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 2px;
+    transition: background .2s ease-in-out;
+}
+
+main .description button:hover {
+    background: var(--hover-color);
+}
+
+footer {
+    margin-top: 4rem;
+    background: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+footer .footer-one {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 3rem;
+}
+
+footer .footer-one .footer-one-info {
+    flex: 1;
+    padding: 2.5rem;
+}
+
+footer .footer-one .footer-one-info h5 {
+    padding-bottom: 1rem;
+}
+
+footer .footer-one .footer-one-menu {
+    flex: 1;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer-one .footer-one-menu h5 {
+    padding-bottom: 1rem;
+}
+
+footer .footer-one .footer-one-menu ul {
+    display: flex;
+    list-style: none;
+}
+
+footer .footer-one .footer-one-menu ul li {
+    padding-right: 1rem;
+}
+
+footer .divider {
+    height: 1px;
+    display: block;
+    background: darkred;
+}
+
+footer .footer-two {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2.5rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer-two .socials ul {
+    padding-bottom: 1rem;
+    list-style: none;
+    display: flex;
+}
+
+footer .footer-two .socials ul li {
+    padding-right: 1rem;
+}
