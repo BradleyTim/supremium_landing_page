@@ -1,0 +1,74 @@
+main.reset-page {
+    width: 100%;
+    margin-bottom: -3rem;
+}
+
+main.reset-page .reset-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+main.reset-page .reset-title {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    color: var(--primary-color);
+    text-align: center;
+    font-weight: 700;
+}
+
+main.reset-page p {
+    font-size: .85rem;
+    color: var(--secondary-color);
+    text-align: center;
+    margin-top: 1rem;
+}
+
+main.reset-page .form-group {
+    margin-top: 1rem;
+}
+
+main.reset-page .form-group label {
+    display: block;
+    color: var(--primary-color);
+    font-size: .8rem;
+}
+
+main.reset-page .form-group input {
+    display: block;
+    width: 100%;
+    padding: .75rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 2px;
+}
+
+main.reset-page .cancel {
+    display: block;
+    margin: 1rem;
+    text-align: center;
+}
+
+main.reset-page a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: small;
+}
+
+main.reset-page button {
+    display: block;
+    max-width: 50%;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding: .65rem 1.15rem;
+    background: var(--button-color);
+    color: #fff;
+    border: var(--button-color);
+    border-radius: 2px;
+
+    margin: 0 auto;
+}
+
+main.reset-page button:hover {
+    background: var(--hover-color);
+}

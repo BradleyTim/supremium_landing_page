@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/d5fc13163f.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/reset.css">
 
 </head>
 <body>
@@ -42,26 +42,20 @@
             </nav>
         </div>
     </header>
-    <main class="login-page">
-       <div class="login-container">
-           <h2 class="login-title">Login</h2>
+    <main class="reset-page">
+       <div class="reset-container">
+           <h2 class="reset-title">RESET YOUR PASSWORD</h2>
+           <p>We will send you an email to rest your password.</p>
            <form action="#">
                <div class="form-group">
                    <label for="email">Email</label>
                    <input type="email" name="email" id="email" placeholder="">
                </div>
                <div class="form-group">
-                   <label for="password">Password</label>
-                   <input type="password" name="password" id="password">
+                    <button type="submit">SUBMIT</button>
                </div>
-               <div class="form-group forgot">
-                   <a href="/pages/reset.html">Forgot your password?</a>
-               </div>
-               <div class="form-group">
-                    <button type="submit">Sign In</button>
-               </div>
-               <div class="form-group create">
-                   <a href="#">Create account</a>
+               <div class="form-group cancel">
+                   <a href="/pages/login.html">Cancel</a>
                </div>
            </form>
        </div>
