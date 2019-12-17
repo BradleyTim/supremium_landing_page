@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/d5fc13163f.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/signup.css">
 
 </head>
 <body>
@@ -42,10 +42,18 @@
             </nav>
         </div>
     </header>
-    <main class="login-page">
-       <div class="login-container">
-           <h2 class="login-title">Login</h2>
+    <main class="signup-page">
+       <div class="signup-container">
+           <h2 class="signup-title">Create Account</h2>
            <form action="#">
+               <div class="form-group">
+                   <label for="firstname">First Name</label>
+                   <input type="text" name="firstname" id="firstname" placeholder="">
+               </div>
+               <div class="form-group">
+                   <label for="lastname">Last Name</label>
+                   <input type="text" name="lastname" id="lastname" placeholder="">
+               </div>
                <div class="form-group">
                    <label for="email">Email</label>
                    <input type="email" name="email" id="email" placeholder="">
@@ -54,14 +62,8 @@
                    <label for="password">Password</label>
                    <input type="password" name="password" id="password">
                </div>
-               <div class="form-group forgot">
-                   <a href="/pages/signup.html">Forgot your password?</a>
-               </div>
                <div class="form-group">
                     <button type="submit">Sign In</button>
-               </div>
-               <div class="form-group create">
-                   <a href="#">Create account</a>
                </div>
            </form>
        </div>
