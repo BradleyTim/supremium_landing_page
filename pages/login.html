@@ -8,6 +8,7 @@
     <script src="https://kit.fontawesome.com/d5fc13163f.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/login.css">
 
 </head>
 <body>
@@ -19,9 +20,7 @@
             </div>
             <div class="menu-one">
                 <div>
-                    <a href="#">
-                        <i class="fas fa-search fa-lg"></i>
-                    </a>
+                    <i class="fas fa-search fa-lg"></i>
                 </div>
                 <div>
                     <a href="/pages/login.html">
@@ -29,9 +28,7 @@
                     </a>
                 </div>
                 <div>
-                    <a href="#">
-                        <i class="fas fa-shopping-basket fa-lg"></i>
-                    </a>
+                    <i class="fas fa-shopping-basket fa-lg"></i>
                 </div>
             </div>
         </div>
@@ -45,16 +42,29 @@
             </nav>
         </div>
     </header>
-    <main class="index-page">
-        <div class="display">
-            <img class="display-image" src="/images/tshirt.png" />
-        </div>
-        <div class="description">
-            <h2>Carlyle Is A Great Company</h2>
-            <p>Carlyle are the real ballers that people should know and love, and everyone should recognize them as the force behind the street-wear brand Supreme. Whether it's oil production, defense contracting, or acquiring a stake in top fashion companies, Carlyle is absolutely killing it right now and people need to hear about it!</p>
-            <p>Rep these shirts to show respect for your favorite multi-national private equity asset management financial services corporation The Carlyle Group! And hurry– it’s a limited drop. These products won’t last forever on our store. There are only 100 shirts available so act fast.</p>
-            <button>SHOP ALL PRODUCTS</button>
-        </div>
+    <main class="login-page">
+       <div class="login-container">
+           <h2 class="login-title">Login</h2>
+           <form action="#">
+               <div class="form-group">
+                   <label for="email">Email</label>
+                   <input type="email" name="email" id="email" placeholder="">
+               </div>
+               <div class="form-group">
+                   <label for="password">Password</label>
+                   <input type="password" name="password" id="password">
+               </div>
+               <div class="form-group forgot">
+                   <a href="#">Forgot your password?</a>
+               </div>
+               <div class="form-group">
+                    <button type="submit">Sign In</button>
+               </div>
+               <div class="form-group create">
+                   <a href="#">Create account</a>
+               </div>
+           </form>
+       </div>
     </main>
     <footer>
         <div class="footer-one">

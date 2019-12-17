@@ -1,0 +1,67 @@
+main.login-page {
+    width: 100%;
+    margin-bottom: -3rem;
+}
+
+main.login-page .login-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+main.login-page .login-title {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    text-align: center;
+    font-weight: 700;
+}
+
+main.login-page .form-group {
+    margin-top: 1rem;
+}
+
+main.login-page .form-group label {
+    display: block;
+    color: var(--primary-color);
+    font-size: .8rem;
+}
+
+main.login-page .form-group input {
+    display: block;
+    width: 100%;
+    padding: .75rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 2px;
+}
+
+main.login-page .forgot, 
+main.login-page .create {
+    display: block;
+    margin: 1rem;
+    text-align: center;
+}
+
+main.login-page a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: small;
+}
+
+main.login-page button {
+    display: block;
+    max-width: 50%;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding: .65rem 1.15rem;
+    background: var(--button-color);
+    color: #fff;
+    border: var(--button-color);
+    border-radius: 2px;
+
+    margin: 0 auto;
+}
+
+main.login-page button:hover {
+    background: var(--hover-color);
+}

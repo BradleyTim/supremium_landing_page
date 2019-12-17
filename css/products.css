@@ -49,10 +49,6 @@ main.products-page .filters-toolbar-container {
 
 }
 
-main.products-page .filters-product{
-    /* display: flex; */
-}
-
 main.products-page select {
     display: inline-block;
     padding: 1rem;
